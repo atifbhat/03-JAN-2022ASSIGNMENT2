@@ -1,0 +1,231 @@
+        * {
+            margin: 0px;
+        }
+        
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        
+        .centered {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        #my_name {
+            font-size: 90px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        p {
+            font-size: 15px;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'opensans-regular', sans-serif;
+        }
+        
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 900px;
+        }
+        
+        #link>a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        
+        #link>a:hover {
+            color: orangered;
+        }
+        
+        .active {
+            background-color: lightblue;
+        }
+        
+        #link {
+            position: fixed;
+            top: 0;
+            z-index: 9999999;
+        }
+        
+        .header_link {
+            padding-left: 20px;
+        }
+        
+        i {
+            padding: 20px;
+        }
+        
+        i:hover {
+            color: orangered;
+        }
+        
+        #about {
+            padding-top: 10px;
+            padding-bottom: 55px;
+            overflow: hidden;
+            display: flex;
+        }
+        
+        section {
+            display: block;
+        }
+        
+        #about_me {
+            color: white;
+            font-size: 30px;
+        }
+        
+        #aboutme_para {
+            padding: 5px;
+            font-family: Helvetica;
+            font-size: 20px;
+            color: white;
+            line-height: 30px;
+            color: #7A7A7A;
+            margin: 0 0 30px 0;
+        }
+        /* #about {
+    display: inline;
+} */
+        
+        #personal_image {
+            width: 250px;
+            height: 150px;
+            border-radius: 100%;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        
+        #para {
+            margin-left: 10%;
+            width: 750px;
+            height: 300px;
+        }
+        
+        #middle_part {
+            width: 70%;
+            height: 200px;
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        #midlle_part_inside {
+            margin-top: 30px;
+        }
+        
+        #head {
+            margin-left: 50px;
+            margin-top: 30px;
+            ;
+        }
+        
+        .resume_info {
+            font: 16px/24px;
+            font-family: Roundhand, cursive;
+            color: #6E7881;
+            margin-bottom: 18px;
+            margin-top: 9px;
+            margin-left: 5px;
+            margin-left: 10px;
+        }
+        
+        #middle_part_bach {
+            margin-left: 410px;
+        }
+        
+        section {
+            background: #2B2B2B;
+            padding-bottom: 30px;
+        }
+        
+        #twopara {
+            margin-left: 420px;
+            margin-top: 20px;
+        }
+        
+        #contact {
+            /* margin-left: 420px; */
+            font-size: 38px;
+            color: white;
+            margin-bottom: 8px;
+        }
+        
+        #contact_details>li {
+            /* padding: 5px; */
+            font-family: Helvetica;
+            font-size: 15px;
+            line-height: 30px;
+            color: #7A7A7A;
+            margin-left: 15px;
+            margin-top: 0px;
+        }
+        
+        #middle_part_last {
+            width: 80%;
+            height: 200px;
+            margin-top: 60px;
+            display: flex;
+            margin-left: 150px;
+        }
+        
+        #skills {
+            margin-left: 0px;
+        }
+        
+        #prog {
+            margin-left: 190px;
+            margin-top: 20px;
+            color: #7A7A7A;
+            font-family: Helvetica;
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+        
+        .skills {
+            margin-left: 160px;
+        }
+        
+        .skills>progress {
+            width: 600px;
+            height: 40px;
+            border-radius: 0px;
+            background-color: #313131;
+            margin-top: 20px;
+        }
+        
+        .skills>span {
+            padding-top: 20px;
+            font-weight: bold;
+        }
+        
+        .bars {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+        }
+        
+        footer {
+            color: #7A7A7A;
+            font-family: Helvetica;
+            width: 100%;
+            height: 70px;
+            margin-top: 600px;
+            background-color: #2B2B2B;
+            position: absolute;
+        }
+        
+        #social_links>.active {
+            color: orangered;
+        }
+        
+        .bgColor {
+            background-color: #2B2B2B;
+            color: white;
+        }
