@@ -40,13 +40,13 @@
             margin-top: 10px;
         }
         
+        .active,
         #link>a:hover {
-            color: orangered;
+            color: orangered !important;
         }
-        
-        .active {
+        /* .active {
             background-color: lightblue;
-        }
+        } */
         
         #link {
             position: fixed;
@@ -228,4 +228,8 @@
         .bgColor {
             background-color: #2B2B2B;
             color: white;
+        }
+        
+        #social_links i:hover {
+            color: darkblue !important;
         }
